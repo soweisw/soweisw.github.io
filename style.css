@@ -1,23 +1,21 @@
 .navbar{
-    background-color: #de96fa;
     overflow: hidden;
     margin: auto;
 }
 
 .navbar a{
+    float: left;
     text-align: center;
-    padding: 4px 12px;
     font-size: 18px;
     color: black;
-    background-color: #a863e6;
+    background-color: #de96fa;
     text-decoration: none;
 }
 
 .navbar a:hover{
-    background-color: #7c21cc;
+    background-color: #a863e6;
 }
 
-.navbar a:loc{
-    background-color: #5c149c;
-    color: white;
+.navbar a:active{
+    background-color: #7c21cc;
 }
