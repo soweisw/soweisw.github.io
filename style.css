@@ -6,6 +6,7 @@
 .navbar a{
     float: left;
     text-align: center;
+    padding: 10px 12px;
     font-size: 18px;
     color: black;
     background-color: #de96fa;
