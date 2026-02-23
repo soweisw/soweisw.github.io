@@ -1,14 +1,15 @@
 .navbar{
-    background-color: #a863e6;
-    overflow: auto;
+    background-color: #de96fa;
+    overflow: hidden;
     margin: auto;
 }
 
 .navbar a{
     text-align: center;
-    padding: 8px 16px;
-    font-size: 15px;
+    padding: 4px 12px;
+    font-size: 18px;
     color: black;
+    background-color: #a863e6;
     text-decoration: none;
 }
 
