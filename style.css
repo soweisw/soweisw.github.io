@@ -2,12 +2,16 @@
     display: flex;
     margin: 0;
     width: 100%;
+    margin-left:0;
+    margin-right:0;
     background-color: #d94ce0;
 }
 
 .navbar{
     overflow: hidden;
     float: right;
+    margin-top: auto;
+    margin-right:0;
 }
 
 .navbar a{
