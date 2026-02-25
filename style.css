@@ -1,6 +1,12 @@
+.bar{
+    display: flex;
+    background-color: #f57567;
+}
+
 .navbar{
     overflow: hidden;
     margin: auto;
+    float: right;
 }
 
 .navbar a{
@@ -22,7 +28,7 @@
 }
 
 h1{
-    text-align: center;
+    text-align: left;
     font-size: 24px;
     color: black;
     text-decoration: none;
