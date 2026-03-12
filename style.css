@@ -48,7 +48,7 @@
     width: 100%;
     background-color: #fba8ff;
     padding-top: 5px;
-    padding-top: 0.5vw;
+    padding-top: 0.1vw;
     margin-top: 20px;
     margin-top: 2vw;
     line-height: 0.45;
@@ -57,20 +57,17 @@
 
 .link_container{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    width: 50%;
+    margin: auto;
 }
 
 .link_container img{
-    width: 50%;
+    width: 80%;
     padding: 0;
     padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
     padding-bottom: 1vw;
-    padding-left: 5.5vw;
-    padding-right: 1vw;
-    margin: auto;
 }
 
 .gamesection{
