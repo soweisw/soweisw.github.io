@@ -6,7 +6,6 @@
     background-color: #fba8ff;
     position: fixed;
     top: 0;
-    margin-bottom: 5%;
     z-index: 999;
 }
 
@@ -43,6 +42,35 @@
 
 .navbar a.active{
     background-color: #f989ff;
+}
+
+.bottombar{
+    width: 100%;
+    background-color: #fba8ff;
+    padding-top: 5px;
+    padding-top: 0.5vw;
+    margin-top: 20px;
+    margin-top: 2vw;
+    line-height: 0.45;
+    bottom: 0;
+}
+
+.link_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link_container img{
+    width: 50%;
+    padding: 0;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 1vw;
+    padding-left: 5.5vw;
+    padding-right: 1vw;
+    margin: auto;
 }
 
 .gamesection{
