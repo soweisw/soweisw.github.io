@@ -4,6 +4,10 @@
     justify-content: space-between;
     align-items: center;
     background-color: #fba8ff;
+    background-color: #DFD5DF;
+    background-color: #fcc2ff;
+    background-color: #86CE80;
+    background-color: #A8DFA4;
     position: fixed;
     top: 0;
     z-index: 999;
@@ -34,19 +38,32 @@
     color: black;
     text-decoration: none;
     background-color: #fdd6ff;
+    background-color: #86CE80;
+    background-color: #c1e8be;
+    background-color: #f989ff;
+    background-color: #fcc2ff;
+    background-color: #FA99FF;
+    background-color: #FBADFF;
 }
 
 .navbar a:hover{
     background-color: #f769ff;
+    background-color: #f989ff;
+    background-color: #FA99FF;
 }
 
 .navbar a.active{
     background-color: #f989ff;
+    background-color: #c1e8be;
+    background-color: #A8DFA4;
+    background-color: #86CE80;
 }
 
 .bottombar{
     width: 100%;
     background-color: #fba8ff;
+    background-color: #86CE80;
+    background-color: #f989ff;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-top: 1vw;
@@ -176,6 +193,9 @@ p{
 
 body{
     background-color: #fcc2ff;
+    background-color: #F0D0F1;
+    background-color: #E8D3E8;
+    background-color: #FEDBFF;
     margin: 0;
     padding: 0;
     margin-top: 5%;
