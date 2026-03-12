@@ -47,10 +47,10 @@
 .bottombar{
     width: 100%;
     background-color: #fba8ff;
-    padding-top: 5px;
-    padding-top: 0.1vw;
-    margin-top: 20px;
-    margin-top: 2vw;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
     line-height: 0.45;
     bottom: 0;
 }
@@ -59,15 +59,14 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 50%;
+    width: 60%;
     margin: auto;
 }
 
 .link_container img{
-    width: 80%;
+    width: 60%;
     padding: 0;
-    padding-bottom: 10px;
-    padding-bottom: 1vw;
+    padding-left: 15%;
 }
 
 .gamesection{
