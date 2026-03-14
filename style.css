@@ -1,3 +1,13 @@
+:root {
+    --topbar-color: #A8DFA4;
+    --button-color-base: #FBADFF;
+    --button-color-hover: #FA99FF;
+    --button-color-active: #86CE80;
+    --background-color-1: #FEDBFF;
+    --background-color-2: #c1e8be;
+    --bottombar-color: #f989ff;
+}
+
 .topbar{
     display: flex;
     width: 100%;
@@ -8,6 +18,7 @@
     background-color: #fcc2ff;
     background-color: #86CE80;
     background-color: #A8DFA4;
+    background-color: var(--topbar-color);
     position: fixed;
     top: 0;
     z-index: 999;
@@ -44,12 +55,14 @@
     background-color: #fcc2ff;
     background-color: #FA99FF;
     background-color: #FBADFF;
+    background-color: var(--button-color-base);
 }
 
 .navbar a:hover{
     background-color: #f769ff;
     background-color: #f989ff;
     background-color: #FA99FF;
+    background-color: var(--button-color-hover);
 }
 
 .navbar a.active{
@@ -57,6 +70,7 @@
     background-color: #c1e8be;
     background-color: #A8DFA4;
     background-color: #86CE80;
+    background-color: var(--button-color-active);
 }
 
 .bottombar{
@@ -64,6 +78,7 @@
     background-color: #fba8ff;
     background-color: #86CE80;
     background-color: #f989ff;
+    background-color: var(--bottombar-color);
     padding-top: 10px;
     padding-bottom: 10px;
     padding-top: 1vw;
@@ -94,6 +109,10 @@
     padding-top: 1.5vw;
     padding-bottom: 3.5vw;
     line-height: 0.3;
+}
+
+.gamesection-bg2{
+    background-color: var(--background-color-2);
 }
 
 .centered_container{
@@ -196,6 +215,7 @@ body{
     background-color: #F0D0F1;
     background-color: #E8D3E8;
     background-color: #FEDBFF;
+    background-color: var(--background-color-1);
     margin: 0;
     padding: 0;
     margin-top: 5%;
