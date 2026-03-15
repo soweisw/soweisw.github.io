@@ -85,6 +85,7 @@
     padding-bottom: 1vw;
     line-height: 0.45;
     bottom: 0;
+    flex-grow:1;
 }
 
 .link_container{
@@ -211,6 +212,9 @@ p{
 }
 
 body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     background-color: #fcc2ff;
     background-color: #F0D0F1;
     background-color: #E8D3E8;
