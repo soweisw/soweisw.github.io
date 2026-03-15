@@ -101,7 +101,7 @@
     padding-left: 15%;
 }
 
-.gamesection{
+.pagesection{
     float: center;
     width: 100%;
     padding-top: 15px;
@@ -121,14 +121,14 @@
     width: 100%;
 }
 
-.gamesection .centered_container a{
+.pagesection .centered_container a{
     font-size: 15px;
     font-size: 1.5vw;
     text-decoration: none;
     padding-top:1%;
 }
 
-.gamesection p{
+.pagesection p{
     text-indent: 3em;
     text-align: justify;
     text-justify: inter-word;
@@ -140,7 +140,7 @@
     margin-right: 7vw;
 }
 
-.gamesection .pics{
+.pagesection .pics{
     display: flex;
     justify-content: space-around;
     align-items: center;
