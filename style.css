@@ -13,11 +13,6 @@
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    background-color: #fba8ff;
-    background-color: #DFD5DF;
-    background-color: #fcc2ff;
-    background-color: #86CE80;
-    background-color: #A8DFA4;
     background-color: var(--topbar-color);
     position: fixed;
     top: 0;
@@ -48,36 +43,21 @@
     font-size: 1.5vw;
     color: black;
     text-decoration: none;
-    background-color: #fdd6ff;
-    background-color: #86CE80;
-    background-color: #c1e8be;
-    background-color: #f989ff;
-    background-color: #fcc2ff;
-    background-color: #FA99FF;
-    background-color: #FBADFF;
     background-color: var(--button-color-base);
 }
 
 .navbar a:hover{
-    background-color: #f769ff;
-    background-color: #f989ff;
-    background-color: #FA99FF;
     background-color: var(--button-color-hover);
 }
 
 .navbar a.active{
-    background-color: #f989ff;
-    background-color: #c1e8be;
-    background-color: #A8DFA4;
-    background-color: #86CE80;
     background-color: var(--button-color-active);
 }
 
 .bottombar{
     width: 100%;
-    background-color: #fba8ff;
-    background-color: #86CE80;
-    background-color: #f989ff;
+    height: 5%;
+    max-height: 75px;
     background-color: var(--bottombar-color);
     padding-top: 10px;
     padding-bottom: 10px;
@@ -91,11 +71,18 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex: 1;
     width: 60%;
     margin: auto;
 }
 
+.link_container a{
+    flex: 1;
+    width: 60%;
+}
+
 .link_container img{
+    flex: 0 1 10%;
     width: 60%;
     padding: 0;
     padding-left: 15%;
@@ -204,7 +191,8 @@ h3{
 p{
     text-align: left;
     font-size: 15px;
-    font-size: 1.75vw;
+    font-size: min(1.85vw,25px);
+    font-size: clamp(15px,1.85vw,25px);
     text-decoration: none;
     line-height: 1.5;
 }
@@ -213,10 +201,6 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-color: #fcc2ff;
-    background-color: #F0D0F1;
-    background-color: #E8D3E8;
-    background-color: #FEDBFF;
     background-color: var(--background-color-1);
     margin: 0;
     padding: 0;
