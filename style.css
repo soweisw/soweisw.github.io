@@ -6,6 +6,16 @@
     --background-color-1: #FEDBFF;
     --background-color-2: #c1e8be;
     --bottombar-color: #f989ff;
+
+    --navbar-name-color: black;
+    --navbar-button-text-color: black;
+    --navbar-button-text-color-hover: black;
+    --navbar-button-text-color-active: black;
+    --link-color: blue;
+    --paragraph-text-color-1: black;
+    --paragraph-text-color-2: black;
+    --bottombar-text-color: black;
+    --bottombar-email-link-color: blue;
 }
 
 .topbar{
@@ -42,17 +52,19 @@
     margin: 0px 7px;
     margin: 0vw 0.4vw;
     font-size: clamp(1rem,1.85vw,1.6rem);
-    color: black;
+    color: var(--navbar-button-text-color);
     text-decoration: none;
     background-color: var(--button-color-base);
 }
 
 .navbar a:hover{
     background-color: var(--button-color-hover);
+    color: var(--navbar-button-text-color-hover);
 }
 
 .navbar a.active{
     background-color: var(--button-color-active);
+    color: var(--navbar-button-text-color-active);
 }
 
 .bottombar{
@@ -87,6 +99,20 @@
     padding: 0;
 }
 
+.bottombar_text{
+    margin: 0;
+    font-size: clamp(1rem,2vw,2rem);
+    color: var(--bottombar-text-color);
+}
+
+.bottombar_email_link{
+    text-align: center;
+    margin-top: 0.75vw;
+    margin-bottom: 0%;
+    font-size: clamp(1rem,1.7vw,2rem);
+    color: var(--bottombar-email-link-color);
+}
+
 .pagesection{
     float: center;
     width: 100%;
@@ -98,6 +124,10 @@
 
 .use_bg2{
     background-color: var(--background-color-2);
+}
+
+.use_bg2 p{
+    color: var(--paragraph-text-color-2);
 }
 
 .centered_container{
@@ -174,6 +204,7 @@ h1{
     text-align: center;
     font-size: clamp(1.5rem,2.1vw,2rem);
     text-decoration: none;
+    color: var(--navbar-name-color);
 }
 
 h2{
@@ -193,11 +224,13 @@ p{
     font-size: clamp(1rem,1.85vw,1.6rem);
     text-decoration: none;
     line-height: 1.5;
+    color: var(--paragraph-text-color-1);
 }
 
 a{
     font-size: 15px;
     font-size: clamp(1rem,1.85vw,1.6rem);
+    color: var(--link-color);
 }
 
 body{
