@@ -23,7 +23,7 @@
     display: flex;
     overflow: hidden;
     float: center;
-    width: 35%;
+    width: fit-content;
     margin-top: 10px;
     margin-bottom: 10px;
     margin-right: 10px;
@@ -39,8 +39,9 @@
     text-align: center;
     padding: 5px 7px;
     padding: 0.5vw 0.7vw;
-    font-size: 15px;
-    font-size: 1.5vw;
+    margin: 0px 7px;
+    margin: 0vw 0.4vw;
+    font-size: clamp(1rem,1.85vw,1.6rem);
     color: black;
     text-decoration: none;
     background-color: var(--button-color-base);
@@ -213,6 +214,7 @@ body{
 .main{
     margin: 0;
     padding: 0;
-    margin-top: 5%;
+    margin-top: 6%;
+    margin-top: max(5%, calc(11vh - 5vw));
     flex-grow: 1;
 }
