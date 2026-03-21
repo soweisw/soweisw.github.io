@@ -73,7 +73,7 @@
     justify-content: space-around;
     align-items: center;
     margin: auto;
-    width: 60%;
+    width: max(60%,400px);
     height: 100%;
 }
 
