@@ -141,12 +141,17 @@
     margin: auto;
 }
 
-.youtube_vid{
-    width: 50%;
-    height: auto;
-    margin: auto;
+.vid_container{
     margin-bottom: 20px;
     margin-bottom: 2vw;
+}
+
+.vid_container iframe{
+    width: 50%;
+    aspect-ratio: 16/9;
+    height: auto;
+    top: 0;
+    left: 0;
 }
 
 .audio_container{
